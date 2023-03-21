@@ -21,6 +21,10 @@ module.exports = {
       },
       white: "#FFFFFF",
       lightGray: "#98A2B3",
+      warning: {
+        50: "#FFFAEB",
+        700: "#B54708",
+      },
     },
   },
   plugins: [],
