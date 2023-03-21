@@ -1,5 +1,6 @@
 import React from "react";
 import HeroBg from "@/assets/heroBg.jpg";
+import ProfileImg from "@/assets/profileImg.jpg";
 import Image from "next/image";
 
 const index = () => {
@@ -12,6 +13,17 @@ const index = () => {
             alt="Hero bg"
             className="object-cover h-full w-full"
           />
+        </div>
+        <div>
+          <div>
+            <div className="border-[4px] border-white overflow-hidden h-[144px] w-[144px] rounded-full shadow-md shadow-gray-200">
+              <Image
+                src={ProfileImg}
+                alt="profile img"
+                className="object-cover h-full w-full"
+              />
+            </div>
+          </div>
         </div>
       </div>
     </div>
