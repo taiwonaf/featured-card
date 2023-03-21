@@ -15,7 +15,7 @@ const index = () => {
           />
         </div>
         <div className="absolute bottom-[24px]">
-          <div className="flex gap-[24px] justify-start items-center">
+          <div className="flex gap-[24px] justify-start items-end">
             <div className="border-[4px] border-white overflow-hidden h-[144px] w-[144px] rounded-full shadow-md shadow-gray-200">
               <Image
                 src={ProfileImg}
@@ -23,13 +23,12 @@ const index = () => {
                 className="object-cover h-full w-full"
               />
             </div>
-            <div className="flex flex-col items-start justify-center gap-[8px]">
+            <div className="mb-[12px] flex flex-col items-start justify-center gap-[8px]">
               <h3 className="font-[600] text-[24px] leading-[32px] text-gray-900">
                 Starts in: 3 days : 2 hours : 24 minutes{" "}
               </h3>
               <div className="flex justify-start items-center gap-[8px]">
                 <span className="w-[88px] flex justify-between items-center h-[28px] rounded-[16px] bg-warning-50 px-[12px] py-[4px] text-warning-700 font-[500] ">
-                  <span>.</span>
                   <span>Not Live</span>
                 </span>
                 <span className="text-gray-600 leading-[24px] font-[400] text-[16px]">
